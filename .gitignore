@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+.positai
+PearsonDS.Rproj
+autom4te.cache
+*~
+.svn

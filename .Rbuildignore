@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.positai$
+^\.claude$
+^\.github
+^autom4te.cache
+^.*~$
+^\.svn
+^\.gitignore
