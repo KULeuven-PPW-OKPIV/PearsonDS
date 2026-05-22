@@ -18,3 +18,5 @@ Suggests: gsl
 License: GPL (>=2)
 LazyLoad: yes
 Encoding: UTF-8
+URL: https://github.com/mabe0033/PearsonDS
+BugReports: https://github.com/mabe0033/PearsonDS/issues
