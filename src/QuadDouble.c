@@ -494,7 +494,7 @@ double QDnormInf(QDcomplex A) {
   return(fmax2(fabs(qd2d(A.r)),fabs(qd2d(A.i))));
 }
 
-double FPUcheck(void) {
+void FPUcheck(void) {
   qdouble qda,qdb;
   qda.v[0] = 1.0; qda.v[1] = 0.0; qda.v[2] = 0.0; qda.v[3] = 0.0;
   qdb.v[0] = M_PI; qdb.v[1] = 0.0; qdb.v[2] = 0.0; qdb.v[3] = 0.0;
@@ -518,5 +518,4 @@ double FPUcheck(void) {
   // Restore internal precision on x86 CPU/FPU
 //  _FPU_SETCW(cw);
   XPFPA_RESTORE()
-  return(0.0);
 }
