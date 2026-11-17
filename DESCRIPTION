@@ -1,7 +1,7 @@
 Package: PearsonDS
 Type: Package
 Title: Pearson Distribution System
-Version: 1.3.2-okp
+Version: 1.3.2.9000
 Date: 2025-03-24
 Authors@R: c(person("Martin","Becker", role = c("aut","cre"),
     email = "martin.becker@mx.uni-saarland.de",
