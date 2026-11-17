@@ -1,5 +1,6 @@
 .onLoad <- function(lib, pkg) {
-	invisible(.C(C_FPUcheck))
+  if (R.version$os != "emscripten")
+    invisible(.C(C_FPUcheck))
 }
 
 #Removed (because of NOTE in R-2.15.0, resulting slow down should be negligible)
